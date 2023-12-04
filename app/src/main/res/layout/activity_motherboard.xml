@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".Motherboard">
+
+    <Spinner
+        android:id="@+id/spinmoth"
+        android:layout_width="387dp"
+        android:layout_height="31dp"
+        android:dropDownSelector="@android:drawable/ic_menu_more"
+        android:spinnerMode="dialog"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.108" />
+
+    <Button
+        android:id="@+id/backmoth"
+        android:layout_width="118dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="28dp"
+        android:backgroundTint="#2196F3"
+        android:text="назад"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.975"
+        app:rippleColor="#673AB7" />
+
+    <Button
+        android:id="@+id/delmoth"
+        android:layout_width="118dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="280dp"
+        android:backgroundTint="#2196F3"
+        android:text="удалить"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.221"
+        app:rippleColor="#673AB7" />
+
+    <Button
+        android:id="@+id/addmoth"
+        android:layout_width="118dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="12dp"
+        android:backgroundTint="#2196F3"
+        android:text="добавить"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.221"
+        app:rippleColor="#673AB7" />
+
+    <Button
+        android:id="@+id/editmoth"
+        android:layout_width="118dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="144dp"
+        android:backgroundTint="#2196F3"
+        android:text="изменить"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.221"
+        app:rippleColor="#673AB7" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="411dp"
+        android:layout_height="49dp"
+        android:background="#888785"
+        android:backgroundTint="#2196F3"
+        android:text="КОНФИГУРАТОР МОЩНОСТИ БЛОКА ПИТАНИЯ"
+        android:textAlignment="center"
+        android:textColor="#FFFCFC"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="340dp"
+        android:layout_height="97dp"
+        android:text="TextView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#FF000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.382" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

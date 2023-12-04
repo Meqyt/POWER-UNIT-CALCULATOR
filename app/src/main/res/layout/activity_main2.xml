@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <Button
+        android:id="@+id/backtab"
+        android:layout_width="118dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="28dp"
+        android:backgroundTint="#2196F3"
+        android:text="назад"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.975"
+        app:rippleColor="#673AB7" />
+
+    <Button
+        android:id="@+id/punit"
+        android:layout_width="230dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="135dp"
+        android:layout_marginEnd="136dp"
+        android:backgroundTint="#2196F3"
+        android:text="блоки питания"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.602"
+        app:rippleColor="#673AB7" />
+
+    <Button
+        android:id="@+id/moth"
+        android:layout_width="230dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="135dp"
+        android:layout_marginEnd="136dp"
+        android:backgroundTint="#2196F3"
+        android:text="материнские платы"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.324"
+        app:rippleColor="#673AB7" />
+
+    <Button
+        android:id="@+id/cpu"
+        android:layout_width="230dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="135dp"
+        android:layout_marginEnd="136dp"
+        android:backgroundTint="#2196F3"
+        android:text="процессоры"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.417"
+        app:rippleColor="#673AB7" />
+
+    <Button
+        android:id="@+id/gpu"
+        android:layout_width="230dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="135dp"
+        android:layout_marginEnd="136dp"
+        android:backgroundTint="#2196F3"
+        android:text="видеокарты"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.509"
+        app:rippleColor="#673AB7" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="411dp"
+        android:layout_height="49dp"
+        android:background="#888785"
+        android:backgroundTint="#2196F3"
+        android:text="КОНФИГУРАТОР МОЩНОСТИ БЛОКА ПИТАНИЯ"
+        android:textAlignment="center"
+        android:textColor="#FFFCFC"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="0dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
